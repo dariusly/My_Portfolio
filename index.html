@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Portfolio PM</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="loading">
+            <div id="spinner"></div>
+        </div>
+        <div id="magnify">
+            <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+            <div id="img_here"></div>
+        </div>
+        <header id="header" class="animated slideInDown"
+            style="animation-delay:1.8s;">
+            <table>
+                <tr>
+                    <td id="logo">Dariia Lytvynenko</td>
+                    <td id="navigation">
+                        <a href="#work">work</a>
+                        <a href="#bio">about</a>
+                        <a href="#contact">contact</a>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <table id="top_part">
+            <tr>
+                <td id="about" class="animated slideInLeft"
+                    style="animation-delay:2s;">
+                    <h1>Become my new customer! I am a novice project manager in
+                        the field of IT with little project management
+                        experience. I am a student and always ready to acquire
+                        new knowledge. My task is to ensure the successful
+                        implementation of projects, balancing the customer's
+                        needs, resources and deadlines. I am adept at
+                        communication, strategic planning and problem solving,
+                        which helps to achieve the project goal with high
+                        quality.</h1>
+                    <button class="btn_one">Hire Me</button><br>
+                    <table>
+                        <tr>
+                            <td class="animated zoomIn"
+                                style="animation-delay:2.2s;"><a
+                                    class="social"><i
+                                        class="fab fa-facebook"></i></a></td>
+                            <td class="animated zoomIn"
+                                style="animation-delay:2.4s;"><a
+                                    class="social"><i
+                                        class="fab fa-twitter"></i></a></td>
+                            <td class="animated zoomIn"
+                                style="animation-delay:2.6s;"><a
+                                    class="social"><i
+                                        class="fab fa-instagram"></i></a></td>
+                            <td class="animated zoomIn"
+                                style="animation-delay:2.8s;"><a
+                                    class="social"><i
+                                        class="fab fa-dribbble"></i></a></td>
+                            <td class="animated zoomIn"
+                                style="animation-delay:3.0s;"><a
+                                    class="social"><i
+                                        class="fab fa-medium"></i></a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td id="rightImage" class="animated jackInTheBox"
+                    style="animation-delay:2.2s;"></td>
+            </tr>
+        </table>
+        <div id="work">
+            <h1>work</h1>
+            <div id="photos">
+                <img onclick="magnify($(this).attr('src'))"
+                    src="https://appstore.us.kissflow.store/App6DanrFqWDq/1.1.3/appscreens/images/Talent%20Manager's%20Dashboard.png">
+                <img onclick="magnify($(this).attr('src'))"
+                    src="https://appstore.us.kissflow.store/App6DaSSH135l/1.0.4/appscreens/images/Reports.png">
+                <img onclick="magnify($(this).attr('src'))"
+                    src="https://appstore.us.kissflow.store/App6DaSSH135l/1.0.4/appscreens/images/All%20bugs.png">
+                <img onclick="magnify($(this).attr('src'))"
+                    src="https://images.ctfassets.net/lzny33ho1g45/5IuiGejQcR4Q36RsPqB5WN/312fc7fd32cf03007d2627afff6b7a29/image12.png?w=1400&fm=avif">
+                <img onclick="magnify($(this).attr('src'))"
+                    src="https://images.ctfassets.net/lzny33ho1g45/7avBzHjjADcYoDoHW04gRH/7a447febb565f73b0b2d6f927ba48543/image14.png?w=1400&fm=avif">
+                <img onclick="magnify($(this).attr('src'))"
+                    src="https://images.ctfassets.net/lzny33ho1g45/01Keio5qflqyIjIk0VxYGf/75fa4cb6e7f83dfb8f27b710edb3a857/image8.png?w=1400&fm=avif">
+                <img onclick="magnify($(this).attr('src'))"
+                    src="https://blog.hubspot.com/hs-fs/hubfs/freemanagement_9-1.webp?width=1800&height=1180&name=freemanagement_9-1.webp">
+            </div>
+        </div>
+        <div id="bio">
+            <h1>about</h1>
+            <p>
+                As a novice project manager, I have experience with Microsoft
+                Project, Asana, and Trello for project planning and tracking. My
+                knowledge comes from online courses on platforms such as
+                Coursera and Udemy, as well as self-study through various
+                sources such as blogs, webinars and books.
+            </p>
+            <p>
+                Among the books I have read are
+                "Project Management for Beginners" by Joseph Phillips and
+                "The Fast Forward MBA in Project Management" by Eric Verzuh. In
+                terms of courses, I completed Project Management Fundamentals on
+                Coursera from the University of California, Irvine and Agile
+                Project Management on Udemy.
+            </p>
+            <p>
+                My B1 level of English allows me to communicate effectively with
+                colleagues, clients and other stakeholders in a professional
+                environment. I can:
+
+                1.Written Communication: Focuses on communicating
+                information clearly through email, specialized communication
+                programs (such as Slack), and other platforms. I can write
+                effective e-mails, reports and other documents.
+
+                2.Oral communication: Able to conduct business
+                negotiations, presentations and discussions in English. I have
+                experience participating in online meetings and conferences
+                where the English language is used.
+
+                3.Text Comprehension: Able to quickly understand
+                professional texts such as project documentation, software user
+                manuals, and other specialized materials.
+
+                4.Technical Vocabulary: Familiar with IT and project
+                management terminology that allows me to communicate effectively
+                with colleagues and understand specific aspects of work.
+
+                At work, I use English to maintain project documents, discuss
+                tasks with the team, resolve conflicts, and communicate with
+                clients or customers. The ability to use English at work allows
+                me to be more flexible and efficient in my professional
+                activities, especially in today's international environment.
+            </p>
+        </div>
+        <div id="contact">
+            <h1>contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp;
+                                        +380500745497</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp;
+                                        lytvynenkodariia@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-fax"></i> &nbsp;
+                                        +380934965037 </td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                        <div id="address">
+                                            Khreschatyk,<br>
+                                            Kyiv,<br>
+                                            Ukraine
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="social"><i
+                                                class="fab fa-facebook"></i></a>
+                                        <a class="social"><i
+                                                class="fab fa-twitter"></i></a>
+                                        <a class="social"><i
+                                                class="fab fa-instagram"></i></a>
+                                        <a class="social"><i
+                                                class="fab fa-dribbble"></i></a>
+                                        <a class="social"><i
+                                                class="fab fa-medium"></i></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text" placeholder="name" required>
+                            <input type="email" placeholder="email"
+                                required><br>
+                            <textarea placeholder="your message" required
+                                rows="5"></textarea><br>
+                            <button class="btn_one">send</button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="footer">
+            made on earth by a human <br> <a
+                href="https://imfunniee.github.io">imfunniee</a>
+        </div>
+        <script src="index.js" type="text/javascript"></script>
+    </body>
+</html>
